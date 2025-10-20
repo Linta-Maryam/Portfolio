@@ -567,31 +567,37 @@
             </div>
             
             <div class="contact-form">
-                <form id="projectForm" name="contact" netlify data-netlify="true">
-                    <input type="hidden" name="form-name" value="contact">
-                    
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <select id="serviceType" name="service" required>
-                            <option value="">Select Animation Service</option>
-                            <option value="micro">Micro-Interactions ($149)</option>
-                            <option value="3d">3D Showcase ($499)</option>
-                            <option value="full">Full Website Animations ($299)</option>
-                            <option value="custom">Custom Project</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" placeholder="Tell me about your animation vision..." rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-full magnetic">
-                        <span>Start Animation Project</span>
-                    </button>
-                </form>
+              <form 
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  netlify
+>
+  <input type="hidden" name="form-name" value="contact" />
+
+  <div class="form-group">
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+  </div>
+  <div class="form-group">
+    <input type="email" id="email" name="email" placeholder="Your Email" required>
+  </div>
+  <div class="form-group">
+    <select id="serviceType" name="service" required>
+      <option value="">Select Animation Service</option>
+      <option value="micro">Micro-Interactions ($149)</option>
+      <option value="3d">3D Showcase ($499)</option>
+      <option value="full">Full Website Animations ($299)</option>
+      <option value="custom">Custom Project</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <textarea id="message" name="message" placeholder="Tell me about your animation vision..." rows="5" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary btn-full magnetic">
+    <span>Start Animation Project</span>
+  </button>
+</form>
+
             </div>
         </div>
     </div>

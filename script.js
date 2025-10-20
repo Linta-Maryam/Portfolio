@@ -11,17 +11,20 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Netlify Form Handling - MOVED INSIDE DOMContentLoaded
     const projectForm = document.getElementById('projectForm');
-    if (projectForm) {
+      if (projectForm) {
         projectForm.addEventListener('submit', function(e) {
             const submitButton = this.querySelector('button[type="submit"]');
             const originalText = submitButton.innerHTML;
-            
+
             // Show loading state
             submitButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
             submitButton.disabled = true;
-            
-            // Netlify will handle the actual form submission
-            // The page will reload on success
+
+            // Let Netlify handle the submission automatically
+            setTimeout(() => {
+                submitButton.innerHTML = originalText;
+                submitButton.disabled = false;
+            }, 4000); // reset after 4s (optional visual reset)
         });
     }
 }); // REMOVED THE EXTRA BRACKET FROM HERE
