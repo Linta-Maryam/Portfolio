@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linta Maryam - Animation Specialist</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2>Linta<span>Animates</span></h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#work" class="nav-link">Projects</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link cta-button">Hire Me</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="animated-text">
+                    <h1 class="hero-title">
+                        <span class="title-word">I</span>
+                        <span class="title-word">Create</span>
+                        <span class="title-word">Digital</span>
+                        <span class="title-word highlight">Experiences</span>
+                        <span class="title-word">That</span>
+                        <span class="title-word">Come</span>
+                        <span class="title-word">To</span>
+                        <span class="title-word">Life</span>
+                    </h1>
+                </div>
+                <p class="hero-subtitle">Frontend Developer & Animation Specialist crafting immersive web experiences with GSAP, Framer Motion, and Three.js</p>
+                
+                <div class="hero-buttons">
+                    <a href="#work" class="btn btn-primary magnetic">
+                        <span>View My Work</span>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary magnetic">
+                        <span>Start Project</span>
+                    </a>
+                </div>
+
+              
+            </div>
+            
+            <div class="hero-visual">
+                <div class="floating-cube"></div>
+                <div class="pulse-ring"></div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Projects Section -->
+<section id="work" class="projects">
+    <div class="container">
+        <h2 class="section-title">
+            <span class="title-line">Animated</span>
+            <span class="title-line highlight">Projects</span>
+        </h2>
+        
+        <div class="projects-grid">
+            
+            <!-- 1. FANTA 3D PROJECT -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="fanta.jpg" alt="Fanta 3D Experience">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://fantaaaa.netlify.app" target="_blank" class="project-link magnetic">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Fanta 3D Experience</h3>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-cube"></i>
+                            <span>3D Modeling</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-sync-alt"></i>
+                            <span>360° Rotation</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-magic"></i>
+                            <span>Physics Effects</span>
+                        </div>
+                    </div>
+                    <p class="project-description">Immersive Three.js product showcase with interactive camera controls, realistic material rendering, and smooth animations that bring the Fanta brand to life.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS5</span>
+                        <span class="tech-tag">GSAP</span>
+                        <span class="tech-tag">3D Animation</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. PHONE 3D PROJECT -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="phone.jpeg" alt="3D Phone Showcase">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://phoneeeeeee.netlify.app" target="_blank" class="project-link magnetic">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>3D Phone Experience</h3>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Product Showcase</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-sync-alt"></i>
+                            <span>Drag to Rotate</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-eye"></i>
+                            <span>Immersive View</span>
+                        </div>
+                    </div>
+                    <p class="project-description">Interactive 3D phone showcase featuring drag-to-rotate functionality, smooth camera transitions, and realistic lighting that demonstrates product features from every angle.</p>
+                    <div class="project-tech">
+                                                <span class="tech-tag">React.Js</span>
+
+                        <span class="tech-tag">Three.js</span>
+                        <span class="tech-tag">3D Modeling</span>
+                        <span class="tech-tag">WebGL</span>
+                        <span class="tech-tag">Interactive</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. 3D BOOK PROJECT -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="3D Book Experience">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://bookkkkkkkkkkk.netlify.app" target="_blank" class="project-link magnetic">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>3D Book Experience</h3>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-book-open"></i>
+                            <span>Page Animations</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-rotate"></i>
+                            <span>3D Transforms</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-magic"></i>
+                            <span>Smooth Turns</span>
+                        </div>
+                    </div>
+                    <p class="project-description">Interactive book slider with realistic 3D page turning animations, smooth transition effects, and engaging interactions that mimic the physical book reading experience.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">CSS 3D</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Animations</span>
+                        <span class="tech-tag">UI/UX</span>
+                        <span class="tech-tag">React.Js</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. MIDNIGHT LUDO PROJECT -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="ludo.jpg" alt="Midnight Ludo Game">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://midnightludo.netlify.app" target="_blank" class="project-link magnetic">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Midnight Ludo</h3>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-dice"></i>
+                            <span>Game Animations</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-rocket"></i>
+                            <span>Smooth Moves</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-trophy"></i>
+                            <span>Win Effects</span>
+                        </div>
+                    </div>
+                    <p class="project-description">Modern dark-themed Ludo game featuring sophisticated GSAP animations for dice rolls, piece movements, victory sequences, and engaging visual effects that enhance gameplay immersion.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">GSAP</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Game Dev</span>
+                        <span class="tech-tag">UI Animations</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. SWEET DELIGHTS PROJECT -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="bakery.webp" alt="Sweet Delights Bakery">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://sweet-delightssss.vercel.app" target="_blank" class="project-link magnetic">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Sweet Delights Bakery</h3>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-palette"></i>
+                            <span>UI Animations</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Responsive</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-bolt"></i>
+                            <span>Fast Loading</span>
+                        </div>
+                    </div>
+                    <p class="project-description">Aesthetic bakery website featuring delightful UI animations, smooth scrolling effects, engaging hover interactions, and a mouth-watering design that enhances user experience.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">React.JS</span>
+                        <span class="tech-tag">GSAP</span>
+                        <span class="tech-tag">Responsive</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 6. STUDENT DETECTION SYSTEM -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Student Detection System">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://st-mauve-psi.vercel.app" target="_blank" class="project-link magnetic">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Student Detection System</h3>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Security UI</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <span>Real-time Updates</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-user-check"></i>
+                            <span>Access Control</span>
+                        </div>
+                    </div>
+                    <p class="project-description">Smart gate detection system interface with real-time status updates, smooth notification animations, and interactive dashboard elements for monitoring authorized university access.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                         <span class="tech-tag">CSS3</span>
+                          <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">UI/UX</span>
+                        <span class="tech-tag">Animations</span>
+                        <span class="tech-tag">Dashboard</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-line">Animation</span>
+                <span class="title-line highlight">Services</span>
+            </h2>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-star-of-life"></i>
+                    </div>
+                    <h3>Micro-Interactions</h3>
+                    <p class="price">$149</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Hover & Click Animations</li>
+                        <li><i class="fas fa-check"></i> Loading Sequences</li>
+                        <li><i class="fas fa-check"></i> Button Interactions</li>
+                        <li><i class="fas fa-check"></i> Form Animations</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary magnetic">Get Started</a>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="service-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>3D Product Showcase</h3>
+                    <p class="price">$499</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> 3D Model Integration</li>
+                        <li><i class="fas fa-check"></i> Interactive Controls</li>
+                        <li><i class="fas fa-check"></i> Animation Sequences</li>
+                        <li><i class="fas fa-check"></i> Mobile Optimized</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary magnetic">Get Started</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <h3>Full Website Animations</h3>
+                    <p class="price">$299</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Page Transitions</li>
+                        <li><i class="fas fa-check"></i> Scroll Animations</li>
+                        <li><i class="fas fa-check"></i> Hero Animations</li>
+                        <li><i class="fas fa-check"></i> Performance Optimized</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary magnetic">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-content">
+                <h2 class="section-title">About <span class="highlight">Me</span></h2>
+                <p class="about-intro">
+                    Hi, I'm <span class="highlight-text">Linta Maryam</span> - a passionate Frontend Developer & Animation Specialist who transforms static designs into captivating digital experiences.
+                </p>
+                <p class="about-description">
+                    With a deep love for coding and animation, I specialize in creating websites that don't just look beautiful but feel alive. My expertise lies in crafting immersive 3D experiences, smooth animations, and interactive interfaces that engage users and drive business results.
+                </p>
+                
+                <div class="education">
+                    <h3>Education & Background</h3>
+                    <div class="education-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <h4>BS Computer Science</h4>
+                            <p>GPA: 3.39/4.0</p>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <i class="fas fa-laptop-code"></i>
+                        <div>
+                            <h4>Intermediate (ICS)</h4>
+                            <p>1010/1100</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="passion-statement">
+                    <h3>My Passion</h3>
+                    <p>I believe that animations are not just decorative elements - they're powerful tools that guide users, enhance experiences, and make digital interactions memorable. My goal is to become one of Pakistan's most talented front-end developers, specializing in bringing creativity and life to digital interfaces.</p>
+                </div>
+            </div>
+            
+            <div class="about-visual">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user"></i>
+                            <span>Your Photo</span>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-element el-1"><i class="fab fa-js-square"></i></div>
+                            <div class="floating-element el-2"><i class="fas fa-cube"></i></div>
+                            <div class="floating-element el-3"><i class="fas fa-code"></i></div>
+                        </div>
+                    </div>
+                    <div class="profile-info">
+                        <h3>Linta Maryam</h3>
+                        <p>Animation Specialist</p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Sargodha, Pakistan</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>maryamlinta1211@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+92-3226319099</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="skills-section" id="skill">
+            <h3>Animation & Development Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-wave-square"></i>
+                    </div>
+                    <h4>GSAP Animations</h4>
+                    <p>Professional-grade animations with perfect timing and smooth easing</p>
+                    <div class="skill-tags">
+                        <span>Timeline Sequencing</span>
+                        <span>Scroll Triggers</span>
+                        <span>Stagger Effects</span>
+                    </div>
+                </div>
+    <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h4>React.JS Development</h4>
+                    <p>Immersive  experiences using React with Three.js and WebGL</p>
+                    <div class="skill-tags">
+                         <span>React.js</span>
+                        <span>Three.js</span>
+                        <span>3D Modeling</span>
+                        <span>Camera Controls</span>
+                    </div>
+                </div>   
+                 <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h4>HTML,CSS,JS</h4>
+                    <p>Immersive 3D experiences along with GSAP</p>
+                    <div class="skill-tags">
+                                                <span>JS</span>
+
+                        <span>Three.js</span>
+                        <span>3D Modeling</span>
+                        <span>Camera Controls</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h4>3D Development</h4>
+                    <p>Immersive 3D experiences using Three.js and WebGL</p>
+                    <div class="skill-tags">
+                        <span>Three.js</span>
+                        <span>3D Modeling</span>
+                        <span>Camera Controls</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h4>Framer Motion</h4>
+                    <p>Production-ready animations for React applications</p>
+                    <div class="skill-tags">
+                        <span>Gesture Animations</span>
+                        <span>Layout Transitions</span>
+                        <span>Drag Controls</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h4>UI/UX Design</h4>
+                    <p>Modern interfaces with strong visual design principles</p>
+                    <div class="skill-tags">
+                        <span>Responsive Design</span>
+                        <span>User Experience</span>
+                        <span>Modern UI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>   <!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">
+            <span class="title-line">Ready to</span>
+            <span class="title-line highlight">Animate?</span>
+        </h2>
+        
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h3>Let's Create Magic</h3>
+                <p>Have a project that needs to come to life? Let's discuss how we can transform your vision into an animated reality.</p>
+                
+                <div class="contact-method">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>maryamlinta1211@gmail.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-method">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+92-3226319099</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <form id="projectForm" name="contact" netlify data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact">
+                    
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="serviceType" name="service" required>
+                            <option value="">Select Animation Service</option>
+                            <option value="micro">Micro-Interactions ($149)</option>
+                            <option value="3d">3D Showcase ($499)</option>
+                            <option value="full">Full Website Animations ($299)</option>
+                            <option value="custom">Custom Project</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Tell me about your animation vision..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full magnetic">
+                        <span>Start Animation Project</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Linta Maryam</h3>
+                    <p>Bringing Digital Experiences to Life Through Animation</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#work">Projects</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Linta Maryam. Crafted with GSAP magic.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
